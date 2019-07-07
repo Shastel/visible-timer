@@ -1,0 +1,29 @@
+{
+  "name": "visible-timer",
+  "version": "0.0.1",
+  "description": "Simple timer scheduler, that makes ensure that time will be executed only when document is not hidden",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shastel/visible-timer.git"
+  },
+  "keywords": [
+    "timer"
+  ],
+  "author": "max@shas.tel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shastel/visible-timer/issues"
+  },
+  "homepage": "https://github.com/Shastel/visible-timer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "eslint": "^6.0.1"
+  }
+}

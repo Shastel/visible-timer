@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+      "ecmaVersion": 9,
+      "sourceType": "module",
+  },
+  "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "semi": ["error", "always"],
+  }
+}
